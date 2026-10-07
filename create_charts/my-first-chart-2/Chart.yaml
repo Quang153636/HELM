@@ -2,6 +2,13 @@ apiVersion: v2
 name: my-first-chart-2
 description: A Helm chart for Kubernetes
 
+keywords:
+  -"custom-chart"
+  -"web-app"
+
+maintainers:
+  - name: "Quang"
+    email: "quang@gmail.com"
 # A chart can be either an 'application' or a 'library' chart.
 #
 # Application charts are a collection of templates that can be packaged into versioned archives
